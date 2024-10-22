@@ -12,26 +12,26 @@ IT – DVC -WIN – Security Baseline – Attack Surface Reduction – CAN
 
 ### DETAILED EXPLANATION:
 
-**Ownership**
+**Ownership**  
 This section is convenient and can be used for several things. For larger organizations that also have branches abroad or organizations that have multiple branches across the country. But also in smaller organizations we can start using this, I am thinking of departments that use different configurations.
 
 GBL = global and is meant for the entire tenant across all branches, departments, etc..  
 BE = is meant for deployment to all branches in Belgium  
 IT = is meant for deployment to only the IT department  
 
-**Object**
+**Object**  
 This is simple and based to what type of Entra ID group the policy is assigned, User (USR) or Device (DVC).
 
-**Platform**
+**Platform**  
 I also always include the platform to which the policy applies. This gives me a better overview of the total overview of all policies.
 
-WIN = Windows
-AND = Android
-LNX = Linux
-IOS = iOS
+WIN = Windows  
+AND = Android  
+LNX = Linux  
+IOS = iOS  
 ….  
 
-**Type**
+**Type**  
 As it says itself, what type of profile is this? This gives you a view of what this policy has effect on, like Browser, OneDrive, OS, etc…
 
 Custom
@@ -43,14 +43,14 @@ Security Baseline
 …
 Here you can use whatever type you like. Important is that you know (by the look of it) to what the configuration of this policy applies.
 
-**Purpose**
+**Purpose**  
 In addition to the type, I will also add some details about what is configured, for example.:
 
-Onedrive – Know Folder Move
-OS – Device Restrictions
-Ring (Optional)
+Onedrive – Know Folder Move  
+OS – Device Restrictions  
+Ring (Optional)  
 In addition you can also add a (Ring) to your policies, so you can have the same policies multiple times. The reason here is that if I need to test some changes in certain policies, I never touch the ones in production to avoid a massive impact. Examples are:
 
-PRD = Production
-CAN = Canary or test
-DEV = Development (Optional)
+PRD = Production  
+CAN = Canary or test  
+DEV = Development (Optional)  
