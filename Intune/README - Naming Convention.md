@@ -1,5 +1,6 @@
 # NAMING CONVENTION
-  This naming convention utilized in this dev tenant is taken from [Nicky Westelinck](https://www.nickydewestelinck.be/2024/10/17/how-to-organize-your-microsoft-intune-deployments-like-a-rockstar-part-2/)
+  This naming convention is utilized in this dev tenant but is might be slightly mdofied per section.  
+  Taken from [Nicky Westelinck](https://www.nickydewestelinck.be/2024/10/17/how-to-organize-your-microsoft-intune-deployments-like-a-rockstar-part-2/)
 
 **EXAMPLE:**  
 GBL – DVC – WIN – Custom -Enable password reset at login – PRD  
@@ -29,7 +30,6 @@ WIN = Windows
 AND = Android  
 LNX = Linux  
 IOS = iOS  
-….  
 
 **Type**  
 As it says itself, what type of profile is this? This gives you a view of what this policy has effect on, like Browser, OneDrive, OS, etc…
