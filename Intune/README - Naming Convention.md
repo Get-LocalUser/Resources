@@ -1,56 +1,67 @@
 # NAMING CONVENTION
-  This naming convention is utilized in this dev tenant but is might be slightly mdofied per section.  
+  This naming convention is utilized in this dev tenant but might be slightly mdofied per section.  
   Taken from [Nicky Westelinck](https://www.nickydewestelinck.be/2024/10/17/how-to-organize-your-microsoft-intune-deployments-like-a-rockstar-part-2/)
 
 **EXAMPLE:**  
 GBL – DVC – WIN – Custom -Enable password reset at login – PRD  
 BE – DVC – WIN – OneDrive – General Settings – PRD  
 IT – DVC -WIN – Security Baseline – Attack Surface Reduction – CAN  
-![Real Config Profile w/ naming convention](image.png)
 
-**EXPLANATION:**  
-(Ownership) – (Object) – (Platform) -(Type) – (Purpose) – (Ring)  
+## Explanation
 
-### DETAILED EXPLANATION:
+The naming convention follows the structure:  
+**(Ownership) – (Object) – (Platform) – (Type) – (Purpose) – (Ring)**
 
-**Ownership**  
-This section is convenient and can be used for several things. For larger organizations that also have branches abroad or organizations that have multiple branches across the country. But also in smaller organizations we can start using this, I am thinking of departments that use different configurations.
+### Detailed Breakdown
 
-GBL = global and is meant for the entire tenant across all branches, departments, etc..  
-BE = is meant for deployment to all branches in Belgium  
-IT = is meant for deployment to only the IT department  
+### **1. Ownership**
 
-**Object**  
-This is simple and based to what type of Entra ID group the policy is assigned, User (USR) or Device (DVC).
+Defines which branch or department the policy is targeted towards. Useful for large organizations with multiple branches or departments. 
 
-**Platform**  
-I also always include the platform to which the policy applies. This gives me a better overview of the total overview of all policies.
+- **GBL:** Global, for the entire tenant across all branches, departments, etc.
+- **BE:** Deployment to all branches in Belgium.
+- **IT:** Deployment only to the IT department.
 
-WIN = Windows  
-AND = Android  
-LNX = Linux  
-IOS = iOS  
+### **2. Object**
 
-**Type**  
-As it says itself, what type of profile is this? This gives you a view of what this policy has effect on, like Browser, OneDrive, OS, etc…
+Indicates the type of Entra ID group the policy is assigned to: 
 
-Custom
-Browser
-OneDrive
-Operating System
-Account Protection
-Security Baseline
-…
-Here you can use whatever type you like. Important is that you know (by the look of it) to what the configuration of this policy applies.
+- **USR:** User
+- **DVC:** Device
 
-**Purpose**  
-In addition to the type, I will also add some details about what is configured, for example.:
+### **3. Platform**
 
-Onedrive – Know Folder Move  
-OS – Device Restrictions  
-Ring (Optional)  
-In addition you can also add a (Ring) to your policies, so you can have the same policies multiple times. The reason here is that if I need to test some changes in certain policies, I never touch the ones in production to avoid a massive impact. Examples are:
+Specifies the platform to which the policy applies:
 
-PRD = Production  
-CAN = Canary or test  
-DEV = Development (Optional)  
+- **WIN:** Windows  
+- **AND:** Android  
+- **LNX:** Linux  
+- **IOS:** iOS  
+
+### **4. Type**
+
+Describes the type of profile or what aspect the policy targets, allowing for better organization and clarity. Example types include:
+
+- **Custom**  
+- **Browser**  
+- **OneDrive**  
+- **Operating System**  
+- **Account Protection**  
+- **Security Baseline**  
+
+Feel free to use whatever types suit your organization’s needs, ensuring they clearly indicate the purpose of the configuration.
+
+### **5. Purpose**
+
+Provides additional details about what the policy configures. For instance:
+
+- **OneDrive – Known Folder Move**  
+- **OS – Device Restrictions**  
+
+### **6. Ring (Optional)**
+
+Defines the environment or stage of the policy, allowing for multiple versions of the same policy based on the testing or production status. This helps prevent accidental modifications to critical configurations. Examples include:
+
+- **PRD:** Production  
+- **CAN:** Canary or test  
+- **DEV:** Development (Optional)  
