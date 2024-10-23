@@ -1,10 +1,10 @@
 # WINDOWS APPS
-The following Applications are uploaded in the Intune tenant.  
+The following Applications are for Windows.
 
 ### APP NAME
 
 | App Name                                                  | Type                             | Other          |
-| --------------                                            | --------------                   | -------------- |
+| --------------------------------------------------------- | -------------------------------- | -------------- |
 | AApp Installer - GLB - DEV                                | Microsoft Store app (New)        |                |
 | Company Portal - GLB - DEV                                | Microsoft Store app (New)        |                |
 | Google Chrome - GLB - DEV                                 | Windows app (Win32)              |                |
@@ -18,17 +18,17 @@ The following Applications are uploaded in the Intune tenant.
 | Zoom(32bit) - BOT - DEV                                   | Windows app (Win32)              |                |
 
   
-### DETECTION RULES
+## 2. Detection Rules
 
-Detection rules vary based on the application type and other factors but outlined below in the general method.  
+Detection rules vary based on the application type and other factors. The general methods used are outlined below:
 
-**Application Architecture:** MSI  
-- MSI Product code  
+- **Application Architecture:** MSI  
+  - **Detection Method:** MSI Product Code  
 
-**Application Architecture:** EXE  
-- Genrerally a detection of a registry key that makes sense for the specific application located in  
-    - HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\  
-    -or-  
-    - HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\  
+- **Application Architecture:** EXE  
+  - **Detection Method:** Registry key based, specific to the application located in:  
+    - `HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\`  
+    - **or**  
+    - `HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\`  
 
-[Basic App Detetcion Script](https://github.com/asjimene/miscellaneous-tools/blob/master/BasicAppDetectionScript/BasicAppDetectionScript.ps1)
+For a detailed example, refer to the [Basic App Detection Script](https://github.com/asjimene/miscellaneous-tools/blob/master/BasicAppDetectionScript/BasicAppDetectionScript.ps1).
