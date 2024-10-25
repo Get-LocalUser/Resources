@@ -61,6 +61,7 @@
 - [Microsoft Graph Permission Explorer](https://graphpermissions.merill.net/)
 - [Graph PowerShell Conversion Analyzer](https://graphpowershell.merill.net/)
 - [Microsoft365DSC](https://microsoft365dsc.com/)
+- [Microsoft365DSC CaaC](https://export.microsoft365dsc.com)
 
 ## Intune
 
