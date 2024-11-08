@@ -16,7 +16,7 @@ GLB - USR - CA - Require MAM for iOS & Android
   This policy blocks all legacy sign-ins that are not capable of multi-factor authentication (MFA).
 
 - **GLB - USR - CA - Denied Countries**  
-  This policy restricts access to company resources to users based only in the USA and CANADA, leveraging "Named Locations" based on GPS coordinates.
+  This policy restricts access to company resources to users outside of the USA and CANADA, leveraging "Named Locations" based on GPS coordinates.
 
 - **GLB - USR - CA - Require MAM for iOS & Android**  
   MAM is required for iOS and Android.
