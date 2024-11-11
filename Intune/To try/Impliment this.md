@@ -1,6 +1,8 @@
 ## Things to try or implement
 - [x] Autopilot enrollment with user ESP disabled.
 - [ ] Disable first logon animation
+- [ ] Setup W11 Lab Deployment Kit from MS
+- [ ] Setup HybridCloudTrust
 
 
 ## Findings/update  
