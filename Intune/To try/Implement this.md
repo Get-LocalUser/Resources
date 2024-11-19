@@ -12,3 +12,5 @@
         - `GLB - USR - CA - Require MAM for iOS & Android`
         - `Require Custom (Modern MFA) to sign in`
     - **UPDATE**: Instead of requiring MS Auth, it is okay with the biometric login or PIN, which is good, but we do want MS Auth to be an option. Will need to look into this further.
+    - **UPDATE2**: This can be remediated with having the user add the account to the MS Auth app prior to logging into the machine which will enable Passwordless auth.
+    - **THOUGHTS**: How does a passwordless user login to an already existing machine? Unless they have a YubiKey or WHfB setup on the device prior I don't see how it's possible w/o a password. Am I dumb? I have been racking my brain on this and cannot find a single thread about this anywhere online, nor is GPT any help here.
