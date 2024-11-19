@@ -1,10 +1,14 @@
-## Things to try or implement
-- [x] Autopilot enrollment with user ESP disabled.
-- [ ] Disable first logon animation
-- [ ] Setup W11 Lab Deployment Kit from MS
-- [ ] Setup HybridCloudTrust
-
-
-## Findings/update  
-1. Success! not only is the ESP much much faster it's just a better experience overall and the chance of failure to enroll is reduced! 
-2. Didn't work. Need to check the config again
+## Things to Try or Implement
+- [x] **Autopilot enrollment with user ESP disabled**
+    - Success! Not only is the ESP much, much faster, but it's also a better experience overall, and the chance of failure to enroll is reduced!
+- [x] **Disable first logon animation**
+- [ ] **Setup Windows 11 Lab Deployment Kit from Microsoft**
+- [ ] **Setup HybridCloudTrust**
+- [x] **Setup TAP and MFA for device enrollment (new hire scenario)**
+    - Created Auth Strength `TAP` for Multi-use mode.
+    - Created CA Policy that requires TAP use for when user action equals "join or join devices" to Entra and to grant access when Auth Strength `TAP` is satisfied.
+    - Verified enrolling device requires TAP and successfully enrolls. 
+    - Since I have WHfB as required for all users, the user is required to set it up after device enrollment. The user will have two auth methods enrolled after getting to the desktop (e.g., WHfB & TAP), but TAP will obviously expire, so they only have WHfB for that specific device. MS Auth on their phone should be used, so currently they should be prompted to set up MS Auth when signing in on the web or their phone due to CA policies:
+        - `GLB - USR - CA - Require MAM for iOS & Android`
+        - `Require Custom (Modern MFA) to sign in`
+    - **UPDATE**: Instead of requiring MS Auth, it is okay with the biometric login or PIN, which is good, but we do want MS Auth to be an option. Will need to look into this further.
