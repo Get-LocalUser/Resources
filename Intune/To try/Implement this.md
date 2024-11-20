@@ -4,8 +4,9 @@
 - [x] **Disable first logon animation**
 - [ ] **Setup Windows 11 Lab Deployment Kit from Microsoft**
 - [ ] **Setup HybridCloudTrust**
-- [ ] **Enable Web Sign-In for Windows devices**
+- [x] **Enable Web Sign-In for Windows devices**
     - The goal here is to be able to have a user sign in using MS Authenticator only or TAP if needed.
+    - It is enabled and I see the option but when I click on the web sign in button nothing happens. I think this is a VM issue and not a polciy issue.
 - [x] **Setup TAP and MFA for device enrollment (new hire scenario)**
     - Created Auth Strength `TAP` for Multi-use mode.
     - Created CA Policy that requires TAP use for when user action equals "join or join devices" to Entra and to grant access when Auth Strength `TAP` is satisfied.
