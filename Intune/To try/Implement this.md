@@ -2,19 +2,13 @@
 - [x] **Autopilot enrollment with user ESP disabled**
     - Success! Not only is the ESP much, much faster, but it's also a better experience overall, and the chance of failure to enroll is reduced!
 - [x] **Disable first logon animation**
+- [x] **Exclude break glass from CAP**
 - [ ] **Setup Windows 11 Lab Deployment Kit from Microsoft**
 - [ ] **Setup HybridCloudTrust**
 - [x] **Enable Web Sign-In for Windows devices**
     - The goal here is to be able to have a user sign in using MS Authenticator only or TAP if needed.
     - It is enabled and I see the option but when I click on the web sign in button nothing happens. I think this is a VM issue and not a polciy issue.
-- [x] **Setup TAP and MFA for device enrollment (new hire scenario)**
-    - Created Auth Strength `TAP` for Multi-use mode.
-    - Created CA Policy that requires TAP use for when user action equals "join or join devices" to Entra and to grant access when Auth Strength `TAP` is satisfied.
-    - Verified enrolling device requires TAP and successfully enrolls. 
-    - Since I have WHfB as required for all users, the user is required to set it up after device enrollment. The user will have two auth methods enrolled after getting to the desktop (e.g., WHfB & TAP), but TAP will obviously expire, so they really only have WHfB for that specific device. MS Auth on their phone should be used, so currently they should be prompted to set up MS Auth when signing in on the web or their phone due to CA policies:
-        - `GLB - USR - CA - Require MAM for iOS & Android`
-        - `Require Custom (Modern MFA) to sign in`
-    - **UPDATE**: Instead of requiring MS Auth, it is okay with the biometric login or PIN, which is good, but we do want MS Auth to be an option. Will need to look into this further.
-    - **UPDATE2**: This can be remediated with having the user add the account to the MS Auth app prior to logging into the machine which will enable Passwordless auth.
-    - **THOUGHTS**: How does a passwordless user login to an already existing machine? Unless they have a YubiKey or WHfB setup on the device prior I don't see how it's possible w/o a password. Am I dumb? I have been racking my brain on this and cannot find a single thread about this anywhere online, nor is GPT any help here.
-    - **THOUGHTS2**: After checking with my physical computer I noticed I have the option for username + pin, perhaps I am missing a setup step or a limitation of VM for username + pin. 
+    - Although this is cool WHfB seems to be better and quicker.
+- [x] **Setup TAP and MFA for device enrollment**
+- [x] **create Win32 and PS Script to launch Company Portal on new machine enrollment's first sign in**
+    - This worked wth? HAHA. Was totally expecting it not to work especially since I had GPT make it with minimal changes. Will upload scripts. 
