@@ -12,4 +12,4 @@
 - [x] **Setup TAP and MFA for device enrollment**
 - [x] **create Win32 and PS Script to launch Company Portal on new machine enrollment's first sign in**
     - This worked wth? HAHA. Was totally expecting it not to work especially since I had GPT make it with minimal changes. Will upload scripts. 
-    - Although I will need to change the path as once CP updates the folde path shoud reflect new version in name.
+    - Although I will need to change the path as once Company Portal updates the folde path shoud reflect new version in name.
