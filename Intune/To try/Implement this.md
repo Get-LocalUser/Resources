@@ -5,7 +5,9 @@
 - [x] **Exclude break glass from CAP**
 - [ ] **Setup Windows 11 Lab Deployment Kit from Microsoft**
 - [ ] **Setup HybridCloudTrust**
-- [ ] **Create Filters to test and take over dynamic groups for autopilot enrollment and possibly Config Profiles. Refer to GetRubix.
+- [ ] **Test Master Wrappers built in PSADT function and upload to Intune.**
+- [x] **Create Microsoft Store apps via Graph API AKA Adobe CC**
+- [ ] **Create Filters to test and take over dynamic groups for autopilot enrollment and possibly Config Profiles. Refer to GetRubix.**
 - [x] **Enable Web Sign-In for Windows devices**
     - The goal here is to be able to have a user sign in using MS Authenticator only or TAP if needed.
     - It is enabled and I see the option but when I click on the web sign in button nothing happens. I think this is a VM issue and not a polciy issue.
