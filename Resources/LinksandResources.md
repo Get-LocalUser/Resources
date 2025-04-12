@@ -62,6 +62,7 @@
 - [Graph PowerShell Conversion Analyzer](https://graphpowershell.merill.net/)
 - [Microsoft365DSC](https://microsoft365dsc.com/)
 - [Microsoft365DSC CaaC](https://export.microsoft365dsc.com)
+- [M365 License Assignment Report](https://rksolutions.nl/m365-license-assignment-report/)
 
 ## Intune
 
