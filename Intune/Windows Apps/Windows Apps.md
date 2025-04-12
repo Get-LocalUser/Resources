@@ -22,13 +22,8 @@ The following Applications are for Windows.
 
 Detection rules vary based on the application type and other factors. The general methods used are outlined below:
 
-- **Application Architecture:** MSI  
-  - **Detection Method:** MSI Product Code  
-
-- **Application Architecture:** EXE  
-  - **Detection Method:** Registry key based, specific to the application located in:  
-    - `HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\`  
-    - **or**  
-    - `HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\`  
+When using a detetcion script it must have a "Exit 0" or Exit 1" along w/ a STDOUT such as  
+write-output "hello world"
+exit 0
 
 For a detailed example, refer to the [Basic App Detection Script](https://github.com/asjimene/miscellaneous-tools/blob/master/BasicAppDetectionScript/BasicAppDetectionScript.ps1).
