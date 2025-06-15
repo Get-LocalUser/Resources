@@ -1,1 +1,0 @@
-I realized that the reason I can't sign in using WHfB in an Enhanced Session mode is that Exhanced relies in RDP and that doesn't understand WH. Go figure

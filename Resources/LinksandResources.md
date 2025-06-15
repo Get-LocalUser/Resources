@@ -17,11 +17,14 @@
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
 - [MXToolbox](https://mxtoolbox.com/)
 - [AbuseIPD](https://www.abuseipdb.com/)
-- [Microsoft Security Response Center (MRSC](https://msrc.microsoft.com/update-guide)
+- [Microsoft Security Response Center (MRSC](https://msrc.microsoft.com/update-guide))
 - [NIST CVE](https://nvd.nist.gov/)
+- [CIS Benchmarks](https://downloads.cisecurity.org/#/)
 
 ## Blogs
 
+- [T-Minus365](https://tminus365.com/)
+- [Bluesky.ms](https://bluesky.ms/) (All MS MVP’s and more)
 - [Call4cloud](https://call4cloud.nl/)
 - [OoOHours](https://oofhours.com/) (King of Autopilot)
 - [Poem to MDM](https://poemtomdm.fr/)
@@ -61,12 +64,16 @@
 - [Microsoft Graph Permission Explorer](https://graphpermissions.merill.net/)
 - [Graph PowerShell Conversion Analyzer](https://graphpowershell.merill.net/)
 - [Microsoft365DSC](https://microsoft365dsc.com/)
-- [Microsoft365DSC CaaC](https://export.microsoft365dsc.com)
+- [Microsoft365DSC CaaC](https://export.microsoft365dsc.com/)
 - [M365 License Assignment Report](https://rksolutions.nl/m365-license-assignment-report/)
+- [M365Scripts](https://m365scripts.com/)
+- [Uninstall-Graph Module](https://uninstall-graph.merill.net/)
 
 ## Intune
 
 - [How to organize your Microsoft Intune](https://www.nickydewestelinck.be/2024/10/17/how-to-organize-your-microsoft-intune-deployments-like-a-rockstar-part-2/)
+- [NamingPilot](https://www.namingpilot.com/)
+- [Intuneqlinks](https://www.intuneqlinks.net/)
 - [Intune Assignment Checker](https://intuneassignmentchecker.ugurkoc.de/)
 - [IntuneMaps](https://intunemaps.com)
 - [Endpoint Management with Microsoft Intune](https://www.oceanleaf.ch/intune-endpoint-management/)**
@@ -87,7 +94,10 @@
 - [Learn Intune](https://www.learnintune.net/)
 - [Get-IntuneManagementExtensionDiagnostics](https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics)
 - [Silent Switch Finder](https://www.appdeploynews.com/adn-silent-switch-finder/)
+- [How to add MS Store apps via Graph](https://endpointcave.com/create-microsoft-store-apps-via-graph-api/)
 
 ## Other
 
 - [TechWhirl Library - TechWhirl](https://techwhirl.com/focus/techwhirl-library/)
+- [Cisco Packet Tracer](https://www.netacad.com/resources/lab-downloads?courseLang=en-US)
+- [EastCharmer](https://www.eastcharmer.com/resources/8af82d1d-699a-4b94-becf-75590202d52d)
