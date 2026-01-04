@@ -71,6 +71,7 @@
 
 ## Intune
 
+- [AwesomeIntune](https://www.awesomeintune.com/)
 - [Intune Settings Catalog Viewer](https://snodecoder.github.io/Intune-Settings-Catalog-Documentation/)
 - [Company Portal Icons](https://companyportalicons.com/)
 - [How to organize your Microsoft Intune](https://www.nickydewestelinck.be/2024/10/17/how-to-organize-your-microsoft-intune-deployments-like-a-rockstar-part-2/)
