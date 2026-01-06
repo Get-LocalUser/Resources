@@ -101,6 +101,4 @@
 
 ## Other
 
-- [TechWhirl Library - TechWhirl](https://techwhirl.com/focus/techwhirl-library/)
 - [Cisco Packet Tracer](https://www.netacad.com/resources/lab-downloads?courseLang=en-US)
-- [EastCharmer](https://www.eastcharmer.com/resources/8af82d1d-699a-4b94-becf-75590202d52d)
