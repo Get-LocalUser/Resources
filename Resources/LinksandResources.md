@@ -71,6 +71,7 @@
 
 ## Intune
 
+- [Intune Remote Actions](https://whimsical.com/intune-remote-actions-SAA8HXA1CQR1gtYRNqeED5)
 - [AppLocker Policy Creator](https://app-locker-cloud.vercel.app/)
 - [AwesomeIntune](https://www.awesomeintune.com/)
 - [Intune Settings Catalog Viewer](https://snodecoder.github.io/Intune-Settings-Catalog-Documentation/)
