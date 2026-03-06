@@ -75,6 +75,7 @@
 - [AppLocker Policy Creator](https://app-locker-cloud.vercel.app/)
 - [AwesomeIntune](https://www.awesomeintune.com/)
 - [Intune Settings Catalog Viewer](https://snodecoder.github.io/Intune-Settings-Catalog-Documentation/)
+- [Intune Settings Catalog Viewer](https://intunesettings.app/)
 - [Company Portal Icons](https://companyportalicons.com/)
 - [How to organize your Microsoft Intune](https://www.nickydewestelinck.be/2024/10/17/how-to-organize-your-microsoft-intune-deployments-like-a-rockstar-part-2/)
 - [NamingPilot](https://www.namingpilot.com/)
