@@ -68,6 +68,9 @@
 - [M365 License Assignment Report](https://rksolutions.nl/m365-license-assignment-report/)
 - [M365Scripts](https://m365scripts.com/)
 - [Uninstall-Graph Module](https://uninstall-graph.merill.net/)
+- [Zero Trust Framework Explorer](https://zerotrustexplorer.merill.net/)
+- [Microsoft Zero Trust Workshop](https://microsoft.github.io/zerotrustassessment/)
+
 
 ## Intune
 
