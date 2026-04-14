@@ -11,13 +11,14 @@
 
 ## Patching/Updates/Mitigation
 
+- [EndofLife.Date](https://endoflife.date/)
 - [Patch Tuesday](https://patchtuesday.com/)
 - [PSWindowsUpdates](https://www.powershellgallery.com/packages/PSWindowsUpdate/2.2.0.3)
 - [kbupdate](https://github.com/potatoqualitee/kbupdate)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
 - [MXToolbox](https://mxtoolbox.com/)
 - [AbuseIPD](https://www.abuseipdb.com/)
-- [Microsoft Security Response Center (MRSC](https://msrc.microsoft.com/update-guide))
+- [Microsoft Security Response Center (MRSC](https://msrc.microsoft.com/update-guide)
 - [NIST CVE](https://nvd.nist.gov/)
 - [CIS Benchmarks](https://downloads.cisecurity.org/#/)
 
@@ -71,6 +72,7 @@
 
 ## Intune
 
+- [AccessLens](https://www.accesslens.co.uk/)
 - [Intune Remote Actions](https://whimsical.com/intune-remote-actions-SAA8HXA1CQR1gtYRNqeED5)
 - [AppLocker Policy Creator](https://app-locker-cloud.vercel.app/)
 - [AwesomeIntune](https://www.awesomeintune.com/)
