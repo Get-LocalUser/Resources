@@ -75,6 +75,7 @@
 
 ## Intune
 
+- [ADMX WebViewer](https://admscope.com/admx/Microsoft_Windows_11/en-US)
 - [AccessLens](https://www.accesslens.co.uk/)
 - [Intune Remote Actions](https://whimsical.com/intune-remote-actions-SAA8HXA1CQR1gtYRNqeED5)
 - [AppLocker Policy Creator](https://app-locker-cloud.vercel.app/)
