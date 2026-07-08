@@ -109,6 +109,8 @@
 - [Get-IntuneManagementExtensionDiagnostics](https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics)
 - [Silent Switch Finder](https://www.appdeploynews.com/adn-silent-switch-finder/)
 - [How to add MS Store apps via Graph](https://endpointcave.com/create-microsoft-store-apps-via-graph-api/)
+- [Silent Install HQ](https://app.silentinstallhq.com/)
+- [SwitchHunt](https://getrff.com/switchhunt)
 
 ## Other
 
