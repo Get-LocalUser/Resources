@@ -76,6 +76,9 @@
 ## Intune
 
 - [ADMX WebViewer](https://admscope.com/admx/Microsoft_Windows_11/en-US)
+- [AutopilotMonitor](https://github.com/okieselbach/AutopilotMonitor)
+- [IntuneDocumentation](https://intunedocumentation.com/)
+- [IntuneChangeLog](https://www.intunechangelog.com/)
 - [AccessLens](https://www.accesslens.co.uk/)
 - [Intune Remote Actions](https://whimsical.com/intune-remote-actions-SAA8HXA1CQR1gtYRNqeED5)
 - [AppLocker Policy Creator](https://app-locker-cloud.vercel.app/)
@@ -111,6 +114,7 @@
 - [How to add MS Store apps via Graph](https://endpointcave.com/create-microsoft-store-apps-via-graph-api/)
 - [Silent Install HQ](https://app.silentinstallhq.com/)
 - [SwitchHunt](https://getrff.com/switchhunt)
+- [MsiInfo](https://msiinfo.com/)
 
 ## Other
 
