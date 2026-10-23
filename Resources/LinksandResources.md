@@ -118,4 +118,6 @@
 
 ## Other
 
+- [RegScanner](https://www.nirsoft.net/utils/regscanner.html)
+- [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html)
 - [Cisco Packet Tracer](https://www.netacad.com/resources/lab-downloads?courseLang=en-US)
